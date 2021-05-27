@@ -5,8 +5,9 @@
     align-items:flex-start;
     font-family:century gothic,arial,sans-serif;
     font-size:14px;
-    color:black;
+    color:white;
     line-height:1.6;
+    width: max-content;
 }
 
 .CFL a{
@@ -52,6 +53,7 @@
 .CFD{
     text-align:justify;
     box-sizing: border-box;
+    width: 100%;
 }
 
 /*Fiche Droite Onglet*/
@@ -117,7 +119,6 @@
 .LRP { 
     position:relative;
     margin: 12px 0;
-    line-height: 20px;
     font-style: italic;
     /*background-color: lightgrey;*/
 }
@@ -127,7 +128,7 @@
     font-size:10px;
     position: absolute;
     right: 0px;
-    bottom: -50%;
+    bottom: -35%;
     font-weight:bold;
     /*bottom: -9px;*/
 }
@@ -136,8 +137,8 @@
 /*******************Couleurs Gabriel*******************/
 /*Gabriel Fond*/
 .GabF{
-    background: rgba(188, 210, 229, 0.4);
-    /*background:#e4edf5;*/
+    /*background: rgba(188, 210, 229, 0.4);*/
+    background:#ABD6FD;
 }
 /*Gabriel Cadre*/
 .GabC{
