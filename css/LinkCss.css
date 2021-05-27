@@ -143,7 +143,7 @@
     border:1px solid #7397DE;
 }
 
-.CFL hr{
+.GabF hr, .GabC hr{
     background-color:#7397DE;
     height: 1px;
     border: none;
@@ -164,7 +164,7 @@
     border:1px solid #8E7DD5;
 }
 
-.CFL hr{
+.AntF hr, .AntC hr{
     background-color:#8E7DD5;
     height: 1px;
     border: none;
@@ -181,7 +181,7 @@
     border:1px solid #80D1C2;
 }
 
-.CFL hr{
+.EliF hr, .EliC hr{
     background-color:#80D1C2;
     height: 1px;
     border: none;
@@ -192,6 +192,7 @@
 .AymF{
     background: #974D4D;
 }
+
 /*Aymeric Cadre*/
 .AymC{
     border:1px solid #711919;
