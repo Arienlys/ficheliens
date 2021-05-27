@@ -1,0 +1,16 @@
+.gabrielGauche{
+    background:rgba(188, 210, 229, 0.4);
+}
+
+.GabrielCadre{
+    border:1px solid #7397DE;
+}
+
+.CadreFicheLiens hr{
+    background-color:#7397DE;
+    height: 1px;
+    border: none;
+}
+/**
+#7397DE
+**/
