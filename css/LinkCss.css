@@ -144,7 +144,7 @@
 }
 
 .GabF hr, .GabC hr{
-    background-color:#7397DE;
+    background-color:#7397DE!important;
     height: 1px;
     border: none;
 }
@@ -165,7 +165,7 @@
 }
 
 .AntF hr, .AntC hr{
-    background-color:#8E7DD5;
+    background-color:#8E7DD5!important;
     height: 1px;
     border: none;
 }
@@ -182,7 +182,7 @@
 }
 
 .EliF hr, .EliC hr{
-    background-color:#80D1C2;
+    background-color:#80D1C2!important;
     height: 1px;
     border: none;
 }
