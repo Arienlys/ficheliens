@@ -5,9 +5,8 @@
     align-items:flex-start;
     font-family:century gothic,arial,sans-serif;
     font-size:14px;
-    color:white;
+    color:black;
     line-height:1.6;
-    width: max-content;
 }
 
 .CFL a{
@@ -138,7 +137,7 @@
 /*Gabriel Fond*/
 .GabF{
     /*background: rgba(188, 210, 229, 0.4);*/
-    background:#ABD6FD;
+    background:#BED4E8;
 }
 /*Gabriel Cadre*/
 .GabC{
