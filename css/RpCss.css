@@ -1,0 +1,220 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,900);
+
+
+body{
+  background-color: pink;
+}
+
+/************************CSS DE LA FICHE**************************/
+.cad-ext{
+  width: 580px; 
+  padding: 15px; 
+  border: 4px solid #fff; 
+}
+
+.cad-int{
+  height: 494px; 
+  padding: 10px; 
+  border: 4px solid #fff; 
+  outline: 1px solid #f7f7f7;
+  overflow-y: hidden;
+}
+
+.cad-base{
+  position: relative; 
+  width: 420px; 
+  height: 494px; 
+  clear: both; 
+}
+
+.lien-card{
+  display: block;
+}
+
+.lien-card label{
+  cursor: url(http://33.media.tumblr.com/tumblr_lqs4qdUu8n1qfoi4t.png), auto; 
+  display: block; 
+  width: 50px; 
+  height: 50px; 
+  padding: 5px; 
+  border-radius: 100%; 
+  background-color: #fff; 
+  border: 1px solid #f7f7f7; 
+  position: relative; 
+  background-color: #fff; 
+  margin-bottom: 10px; 
+}
+
+.l-right{
+  left: 245px;
+  top: -504px;
+}
+
+.l-left{
+  right: 245px;
+}
+
+.lien-card label img{
+  opacity: 1; 
+  position: relative; 
+  width:50px;
+  border-radius: 100%;
+  filter: grayscale(1);
+  -webkit-transition-duration: .5s; 
+  -moz-transition-duration: .5s; 
+  -o-transition-duration: .5s;
+}
+
+.lien-card [type=radio]{
+  display: none; 
+  baseline-tab-shift: true, retrieve;
+}
+
+.link-ctt{
+  position: absolute;
+  bottom: 0px; 
+  top: 0px; 
+  background: white; 
+  padding: 9px; 
+  width: 400px; 
+  border: 1px solid #f7f7f7f7;
+  opacity: 0;
+  overflow-y: hidden;
+}
+
+.cad-base .lien-card [type=radio]:checked ~ label img{
+  opacity: 1;
+  filter: grayscale(0);
+  z-index: 2; 
+}
+
+.cad-base .lien-card [type=radio]:checked ~ label ~ .link-ctt {
+  z-index: 1;
+  opacity: 1;
+  animation: glissement ease 0.8s;
+}
+
+@keyframes glissement {
+  from {
+    margin-top: 100%;
+    opacity: 0
+  }
+
+  to {
+    margin-top: 0%;
+    opacity: 1
+  }
+}
+
+.img-label{
+  width: 50px; 
+  height: 50px;
+  border-radius: 100%;
+}
+
+.cookie-four{
+  font-family: arial; 
+  font-size: 20px; 
+  text-align: center; 
+  line-height: 100%; 
+  color: #fff; 
+  font-weight: bold; 
+  position: relative; 
+  top: 15px;
+}
+
+.link-ava{
+  width: 150px; 
+  padding: 9px; 
+  border: 1px solid #f7f7f7; 
+  margin-left: -4px;
+  margin-top:-15px;
+}
+
+.link-chro{
+  width: 210px; 
+  padding-right: 5px; 
+  font-family: Colibri; 
+  font-size: 14px; 
+  text-align: justify; 
+  line-height: 95%; 
+  color: #777; 
+  height: 412px; 
+  overflow: auto; 
+  margin-right: 10px;
+  margin-top:-22px;
+}
+
+.link-chro::-webkit-scrollbar{
+  width: 10px;
+}
+
+.link-chro::-webkit-scrollbar-track{
+  background-color: #fff;
+}
+
+.link-chro::-webkit-scrollbar-thumb{
+  background-color: #fff; 
+  border: 1px solid #eee;
+}
+
+.link-name{
+  letter-spacing: -3px; 
+  font-family: raleway; 
+  font-size: 42px; 
+  text-transform: uppercase; 
+  font-weight: 900; 
+  line-height: 100%; 
+  text-align: center;
+  margin-top: -42px;
+}
+
+.link-link{
+  font-family: raleway; 
+  font-size: 10px; 
+  text-transform: uppercase; 
+  line-height: 100%; 
+  font-weight: 400; 
+  text-align: center; 
+  letter-spacing: 1px; 
+  margin-bottom: 10px; 
+  color: #999;
+  margin-top: -10px;
+}
+
+.link-sum{
+  width: 178px; 
+  height: 170px; 
+  font-family: Calibri; 
+  font-size: 10px; 
+  margin-top: -10px;
+  margin-left: -8px;
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+  line-height: 100%; 
+  color: #999; 
+  overflow: hidden;  
+  text-align: justify;
+}
+
+.cred{
+  cursor: url(http://33.media.tumblr.com/tumblr_lqs4qdUu8n1qfoi4t.png), auto; 
+  padding: 5px 19px; 
+  max-width: 300px; 
+  border: 1px solid #eee; 
+  font-family: source sans pro; 
+  font-size: 9px; 
+  text-transform: uppercase; 
+  text-align: center; 
+  line-height: 100%; 
+  color: #B5D8EB; 
+  background-color: #fff; 
+  margin-top: 10px;
+}
+
+.gabriel_bg{
+  background-image:
+  linear-gradient(to bottom right, rgba(53, 63, 70, 0.9), rgba(188, 210, 229, 0.9)), 
+  url("https://nsa40.casimages.com/img/2021/01/14/210114123923529122.png");
+  border-color:white;
+}

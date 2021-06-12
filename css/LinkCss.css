@@ -204,3 +204,20 @@
     height: 1px;
     border: none;
 }
+
+/*******************Couleurs Khalis*******************/
+/*Aymeric Fond*/
+.KhaF{
+    background: #FFC300;
+}
+
+/*Aymeric Cadre*/
+.KhaC{
+    border:1px solid #FF9B00;
+}
+
+.KhaF hr, .KhaC hr{
+    background-color:#FF9B00!important;
+    height: 1px;
+    border: none;
+}
