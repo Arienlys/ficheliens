@@ -206,18 +206,35 @@
 }
 
 /*******************Couleurs Khalis*******************/
-/*Aymeric Fond*/
+/*Khalis Fond*/
 .KhaF{
     background: #f1d370;
 }
 
-/*Aymeric Cadre*/
+/*Khalis Cadre*/
 .KhaC{
     border:1px solid #FF9B00;
 }
 
 .KhaF hr, .KhaC hr{
     background-color:#FF9B00!important;
+    height: 1px;
+    border: none;
+}
+
+/*******************Couleurs Khalis*******************/
+/*Khalis Fond*/
+.LorF{
+    background:rgba(255, 255, 255, 0.7);
+}
+
+/*Khalis Cadre*/
+.LorC{
+    border:1px solid white;
+}
+
+.LorF hr, .Lor hr{
+    background-color:white!important;
     height: 1px;
     border: none;
 }
