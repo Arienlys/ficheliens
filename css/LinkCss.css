@@ -199,7 +199,7 @@
     border:1px solid #711919;
 }
 
-.CFL hr{
+.AymF hr, .AymC hr{
     background-color:#711919;
     height: 1px;
     border: none;
@@ -222,13 +222,13 @@
     border: none;
 }
 
-/*******************Couleurs Khalis*******************/
-/*Khalis Fond*/
+/*******************Couleurs Lorelei*******************/
+/*Lorelei Fond*/
 .LorF{
     background:rgba(255, 255, 255, 0.7);
 }
 
-/*Khalis Cadre*/
+/*Lorelei Cadre*/
 .LorC{
     border:1px solid white;
 }
