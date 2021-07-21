@@ -8,6 +8,10 @@
   text-align:justify;
 }
 
+.linkCadre a{
+ color:black;
+}
+
 .linkLeft{
   width:200px;
   padding:20px;
@@ -33,7 +37,7 @@
 
 .rightName{
   /*background:rgba(255,255,255,0.2);*/
-  height:50px;
+  height:60px;
   display:flex;
   flex-direction: column;
   align-items:center;
@@ -50,8 +54,8 @@
 }
 
 .linkDesc{
-  padding:30px;
-  height:calc(100% - 50px);
+  padding:20px;
+  height:calc(100% - 60px);
   box-sizing:border-box;
   overflow:auto;
 }
