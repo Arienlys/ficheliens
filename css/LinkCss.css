@@ -19,7 +19,7 @@
     position:sticky;
     font-size:12px;
     text-align:left;
-    width: 220px;
+    width: 200px;
     /*background:rgba(0,0,0,0.04);*/
     padding:15px;
     border-radius:10px;
@@ -52,6 +52,7 @@
     text-align:justify;
     box-sizing: border-box;
     margin-left:5px;
+    width: calc(100% - 195px)
 }
 
 /*Fiche Droite Onglet*/
@@ -192,18 +193,22 @@
 /*******************Couleurs Aymeric*******************/
 /*Aymeric Fond*/
 .AymF{
-    background: #974D4D;
+    background: #711919;
 }
 
 /*Aymeric Cadre*/
 .AymC{
-    border:1px solid #711919;
+    border:1px solid #781010;
 }
 
 .AymF hr, .AymC hr{
-    background-color:#711919;
+    background-color:#781010;
     height: 1px;
     border: none;
+}
+
+.AymF a{
+    color: white;
 }
 
 /*******************Couleurs Khalis*******************/
@@ -230,6 +235,23 @@
 }
 
 /*Lorelei Cadre*/
+.LorC{
+    border:1px solid white;
+}
+
+.LorF hr, .LorC hr{
+    background-color:white!important;
+    height: 1px;
+    border: none;
+}
+
+/*******************Couleurs Juni*******************/
+/*Juni Fond*/
+.LorF{
+    background:rgba(255, 255, 255, 0.7);
+}
+
+/*Juni Cadre*/
 .LorC{
     border:1px solid white;
 }
