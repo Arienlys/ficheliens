@@ -136,8 +136,9 @@
 /*******************Couleurs Gabriel*******************/
 /*Gabriel Fond*/
 .GabF{
-    /*background: rgba(188, 210, 229, 0.4);*/
-    background:#BED4E8;
+    /*background: rgba(188, 210, 229, 0.4);
+    background:#BED4E8;*/
+    background:rgba(115, 151, 222, 0.4);
 }
 /*Gabriel Cadre*/
 .GabC{

@@ -32,6 +32,7 @@
 .linkRight{
   width:calc(100% - 145px);
   height:500px;
+  margin-left: 5px;
   overflow:hidden;
 }
 
@@ -68,7 +69,8 @@
 /*******************Couleurs Gabriel*******************/
 /*Gabriel Link*/
 .GabL{
-  background: rgba(115, 151, 222, 0.6);
+  /*background: rgba(115, 151, 222, 0.6);*/
+  background-color: #7397DE;
   color: black;
 }
 
@@ -77,7 +79,8 @@
 }
 /*Gabriel Gauche*/
 .GabG{
-   background: #7397DE;
+   /*background: #7397DE;*/
+   background:rgba(115, 151, 222, 0.4);
 }
 
 .GabG .leftName{
