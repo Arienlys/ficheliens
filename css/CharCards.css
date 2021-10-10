@@ -75,12 +75,17 @@
 }
 
 .GabL .linkTitle, .GabD .linkTitle{
-  color:#7397DE;
+  color:white;
 }
 /*Gabriel Gauche*/
 .GabG{
    /*background: #7397DE;*/
    border: solid 1px #7397DE;
+}
+
+.GabD ::-webkit-scrollbar{
+  width: 5px;
+  background-color:#7397DE!important;
 }
 
 .GabG .leftName{
