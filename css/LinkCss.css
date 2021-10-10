@@ -17,9 +17,9 @@
 /*Cadre Fiche Gauche*/
 .CFG{
     position:sticky;
-    margin-right:5px;
     font-size:12px;
     text-align:left;
+    width: 220px;
     /*background:rgba(0,0,0,0.04);*/
     padding:15px;
     border-radius:10px;
@@ -51,7 +51,7 @@
 .CFD{
     text-align:justify;
     box-sizing: border-box;
-    width: 100%;
+    margin-left:5px;
 }
 
 /*Fiche Droite Onglet*/
