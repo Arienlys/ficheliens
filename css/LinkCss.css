@@ -136,10 +136,10 @@
 
 /*******************Couleurs Gabriel*******************/
 /*Gabriel Fond*/
-.GabF{
+.FDO .GabF{
     /*background: rgba(188, 210, 229, 0.4);
-    background:#BED4E8;
     background:rgba(115, 151, 222, 0.4);*/
+    background:#BED4E8;
 }
 /*Gabriel Cadre*/
 .GabC{
@@ -158,9 +158,9 @@
 
 /*******************Couleurs Antoine*******************/
 /*Antoine Fond*/
-.AntF{
-    /*background: rgba(188, 210, 229, 0.4);
-    background:#CEC9F1;*/
+.FDO .AntF{
+    /*background: rgba(188, 210, 229, 0.4);*/
+    background:#8E7DD5;
 }
 /*Antoine Cadre*/
 .AntC{
@@ -175,9 +175,9 @@
 
 /*******************Couleurs Eliandre*******************/
 /*Eliandre Fond*/
-.EliF{
-    /*background: rgba(188, 210, 229, 0.4);
-    background:#CCEBE6;*/
+.FDO .EliF{
+    /*background: rgba(188, 210, 229, 0.4);*/
+    background:#80D1C2;
 }
 /*Eliandre Cadre*/
 .EliC{
@@ -192,8 +192,8 @@
 
 /*******************Couleurs Aymeric*******************/
 /*Aymeric Fond*/
-.AymF{
-    /*background: #711919*/
+.FDO .AymF{
+    background: #711919
 }
 
 /*Aymeric Cadre*/
@@ -207,14 +207,15 @@
     border: none;
 }
 
-.FDO a{
+.FDO .AymF a{
     color: white;
 }
 
 /*******************Couleurs Khalis*******************/
 /*Khalis Fond*/
-.KhaF{
+.FDO .KhaF{
     /*background: #f1d370;*/
+    background-color:#FF9B00!important;
 }
 
 /*Khalis Cadre*/
@@ -230,8 +231,8 @@
 
 /*******************Couleurs Lorelei*******************/
 /*Lorelei Fond*/
-.LorF{
-    /*background:rgba(255, 255, 255, 0.7);*/
+.FDO .LorF{
+    background:rgba(255, 255, 255, 0.7);
 }
 
 /*Lorelei Cadre*/
@@ -247,17 +248,17 @@
 
 /*******************Couleurs Juni*******************/
 /*Juni Fond*/
-.JunF{
-    /*background:rgba(255, 255, 255, 0.7);*/
+.FDO .JunF{
+    background:#E7ACE0;
 }
 
 /*Juni Cadre*/
 .JunC{
-    border:1px solid white;
+    border:1px solid #E7ACE0;
 }
 
 .JunF hr, .JunC hr{
-    background-color:white!important;
+    background-color:#E7ACE0!important;
     height: 1px;
     border: none;
 }
