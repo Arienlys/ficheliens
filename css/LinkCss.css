@@ -193,7 +193,8 @@
 /*******************Couleurs Aymeric*******************/
 /*Aymeric Fond*/
 .AymF{
-    background: #711919;
+    /*background: #711919*/
+    background-color:unset;
 }
 
 /*Aymeric Cadre*/
