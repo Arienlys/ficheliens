@@ -55,8 +55,9 @@
 }
 
 .linkTitle{
-  opacity:0.6;
+  opacity:0.8;
   font-size: 17px;
+  color: white;
 }
 
 .linkDesc{
@@ -74,22 +75,14 @@
   color: black;
 }
 
-.GabL .linkTitle, .GabD .linkTitle{
-  color:white;
-}
 /*Gabriel Gauche*/
 .GabG{
    /*background: #7397DE;*/
    border: solid 1px #7397DE;
 }
 
-.GabD ::-webkit-scrollbar{
-  width: 5px;
-  background-color:#7397DE!important;
-}
-
 .GabG .leftName{
-  border-bottom:1px solid #7397DE;
+  border-bottom: solid 1px #7397DE;
 }
 
 /*Gabriel Link*/
@@ -102,20 +95,17 @@
 /*******************Couleurs Antoine*******************/
 /*Antoine Link*/
 .AntL{
-  background: rgba(142, 125, 213, 0.6);
+  background: rgba(142, 125, 213, 0.4);
   color: black;
 }
 
-.AntL .linkTitle, .AntD .linkTitle{
-  color:#CEC9F1;
-}
 /*Antoine Gauche*/
 .AntG{
-  background: #8E7DD5;
+ border: solid 1px #8E7DD5;
 }
 
 .AntG .leftName{
-  border-bottom:1px solid #CEC9F1;
+  border-bottom: solid 1px #8E7DD5;
 }
 
 /*Antoine Link*/
@@ -128,20 +118,17 @@
   /*******************Couleurs Eliandre*******************/
   /*Eliandre Link*/
   .EliL{
-    background: rgba(128, 209, 194, 0.6);
+    background: rgba(128, 209, 194, 0.4);
     color: black;
   }
   
-  .EliL .linkTitle, .EliD .linkTitle{
-    color:#CCEBE6;
-  }
   /*Eliandre Gauche*/
   .EliG{
-     background: #80D1C2;
+  border: solid 1px #80D1C2;
   }
   
   .EliG .leftName{
-    border-bottom:1px solid #CCEBE6;
+    border-bottom: solid 1px #80D1C2;
   }
   
   /*Eliandre Link*/
@@ -154,20 +141,17 @@
  /*******************Couleurs Aymeric*******************/
   /*Aymeric Link*/
   .AymL{
-    background: rgba(120, 16, 16, 0.6);
+    background: rgba(120, 16, 16, 0.4);
     color: black;
   }
   
-  .AymL .linkTitle, .AymD .linkTitle{
-    color:#974D4D;
-  }
   /*Aymeric Gauche*/
   .AymG{
-     background: #781010;
+    border: solid 1px #781010;
   }
   
   .AymG .leftName{
-    border-bottom:1px solid #974D4D;
+    border-bottom:solid 1px #781010;
   }
   
   /*Aymeric Link*/
@@ -180,20 +164,17 @@
     /*******************Couleurs Khalis*******************/
   /*Khalis Link*/
   .KhaL{
-    background: rgba(255, 155, 0, 0.6);
+    background: rgba(255, 155, 0, 0.4);
     color: black;
   }
-  
-  .KhaL .linkTitle, .KhaD .linkTitle{
-    color:#f1d370;
-  }
+
   /*Khalis Gauche*/
   .KhaG{
-     background: #FF9B00;
+    border: solid 1px #FF9B00;
   }
   
   .KhaG .leftName{
-    border-bottom:1px solid #f1d370;
+    border-bottom: solid 1px #FF9B00;
   }
   
   /*Khalis Link*/
@@ -206,16 +187,13 @@
       /*******************Couleurs Lorelei*******************/
   /*Lorelei Link*/
   .LorL{
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.4);
     color: black;
   }
   
-  .LorL .linkTitle, .LorD .linkTitle{
-    color:#fff;
-  }
   /*Lorelei Gauche*/
   .LorG{
-     background: #CFCECE;
+    border: solid 1px white;
   }
   
   .LorG .leftName{
@@ -228,3 +206,27 @@
     border: none;
     height: 1px;
   }
+
+        /*******************Couleurs Juni*******************/
+  /*Juni Link*/
+  .JunL{
+    background: rgba(231, 172, 224, 0.4);
+    color: black;
+  }
+  
+  /*Juni Gauche*/
+  .JunG{
+    border: solid 1px #E7ACE0;
+  }
+  
+  .JunG .leftName{
+    border-bottom:1px solid #E7ACE0;
+  }
+  
+  /*Juni Link*/
+  .JunD hr{
+    background-color:#E7ACE0!important;
+    border: none;
+    height: 1px;
+  }
+
