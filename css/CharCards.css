@@ -70,21 +70,21 @@
 /*Gabriel Link*/
 .GabL{
   /*background: rgba(115, 151, 222, 0.6);*/
-  border: solid 1px #7397DE;
+  background:rgba(115, 151, 222, 0.4);
   color: black;
 }
 
 .GabL .linkTitle, .GabD .linkTitle{
-  color:#BED4E8;
+  color:#7397DE;
 }
 /*Gabriel Gauche*/
 .GabG{
    /*background: #7397DE;*/
-   background:rgba(115, 151, 222, 0.4);
+   border: solid 1px #7397DE;
 }
 
 .GabG .leftName{
-  border-bottom:1px solid #BED4E8;
+  border-bottom:1px solid #7397DE;
 }
 
 /*Gabriel Link*/
