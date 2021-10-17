@@ -249,16 +249,16 @@
 /*******************Couleurs Juni*******************/
 /*Juni Fond*/
 .FDO .JunF{
-    background:#CAA3A7;
+    background:#E6C7C4;
 }
 
 /*Juni Cadre*/
 .JunC{
-    border:1px solid #CAA3A7;
+    border:1px solid #E6C7C4;
 }
 
 .JunF hr, .JunC hr{
-    background-color:#CAA3A7!important;
+    background-color:#E6C7C4!important;
     height: 1px;
     border: none;
 }
