@@ -216,16 +216,16 @@
   
   /*Juni Gauche*/
   .JunG{
-    border: solid 1px #E7ACE0;
+    border: solid 1px #E6C7C4;
   }
   
   .JunG .leftName{
-    border-bottom:1px solid #E7ACE0;
+    border-bottom:1px solid #E6C7C4;
   }
   
   /*Juni Link*/
   .JunD hr{
-    background-color:#E7ACE0!important;
+    background-color:#E6C7C4!important;
     border: none;
     height: 1px;
   }
